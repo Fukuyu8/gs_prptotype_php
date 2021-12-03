@@ -57,7 +57,14 @@ unset($value);
             </tbody>
         </table>
     </fieldset>
-    <div>ここにmapへ飛ぶボタンをつける</div>
+    <div id="return_map">mapへ戻る</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $('#return_map').on("click", function() {
+            location.assign('https://localhost/prototype_phtm/html/map.html');
+        });
+    </script>
 </body>
 
 </html>

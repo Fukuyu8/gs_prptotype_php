@@ -33,6 +33,6 @@ if (!$val) {
     $_SESSION["session_id"] = session_id(); //sessionIDに今取得したIDを入れた
     $_SESSION["is_admin"] = $val["is_admin"];
     $_SESSION["username"] = $val["username"];
-    header("Location:todo_input.php"); // 一覧ページへ移動 
+    header("Location:html/map.html"); // 一覧ページへ移動 
     exit();
 }
